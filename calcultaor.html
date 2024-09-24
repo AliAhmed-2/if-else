@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cal-container">
+        <p class="para-cal">CALCULATOR</p>
+        <input id="input-cal" type="text">
+        <br>
+      
+        <div class="user-input">
+            <input class="cal-in" id="input-7" type="number">
+            <input class="cal-in"  id="input-8"  type="number">
+
+        </div>
+        <button onclick="calculator()" >Calculate</button>
+        <div class="drop-down">
+            <label for="myDropdown">Choose an opretor:</label>
+                <select id="myDropdown">
+                    <option value="add">Addition</option>
+                    <option value="sub">Subtraction</option>
+                    <option value="mul">Multiplication</option>
+                    <option value="div">Division</option>
+                </select>
+
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
